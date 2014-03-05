@@ -1,0 +1,25 @@
+{
+  "name": "chai-js-factories",
+  "keywords": [ "test", "chai", "factory", "js-factories", "testing"],
+  "description": "js-factories integration with Chai",
+  "version": "0.1.0",
+  "author": "Leon Mergen <leon@solatis.com> (http://www.leonmergen.com/)",
+  "main": "./chai-js-factories",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solatis/chai-js-facctories.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solatis/chai-js-factories/issues"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs test/index.html"
+  },
+  "devDependencies": {
+    "chai": "~1",
+    "mocha": "~1",
+    "mocha-phantomjs": "~3",
+    "js-factories": "~1"
+  }
+}
