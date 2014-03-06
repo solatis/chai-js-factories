@@ -1,5 +1,5 @@
 # Chai Js Factories
-[![NPM Version](https://fury-badge.herokuapp.com/js/js-factories.png)](http://badge.fury.io/js/chai-js-factories)
+[![NPM Version](https://fury-badge.herokuapp.com/js/chai-js-factories.png)](http://badge.fury.io/js/chai-js-factories)
 
 Chai Js Factories adds support of [js-factories](https://github.com/matthijsgroen/js-factories) to [Chai](http://chaijs.com/). In essence it's a wrapper around the js-factories library and makes it available within the Chai namespace.
 
