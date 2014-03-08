@@ -10,7 +10,7 @@ This plugin is available through the NPM repository. If you're using [Karma](htt
 
 ```javascript
 chai.factory.define('testFactory', function (args) { 
-  return new TestFactory(_.extend({foo: 'bar'}, args));
+  return new Example(_.extend({foo: 'bar'}, args));
 });
 
 console.log(chai.factory.create('testFactory'));
