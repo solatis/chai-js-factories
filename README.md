@@ -4,7 +4,7 @@
 Chai Js Factories adds support of [js-factories](https://github.com/matthijsgroen/js-factories) to [Chai](http://chaijs.com/). In essence it's a wrapper around the js-factories library and makes it available within the Chai namespace.
 
 ## Installation
-This plugin is available through the NPM repository.
+This plugin is available through the NPM repository. If you're using [Karma](http://karma-runner.github.io/0.10/index.html), feel free to use the accompanying [karma-chai-js-factories](https://github.com/solatis/karma-chai-js-factories) plugin.
 
 ## Example
 
