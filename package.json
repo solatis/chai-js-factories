@@ -2,7 +2,7 @@
   "name": "chai-js-factories",
   "keywords": [ "test", "chai", "factory", "js-factories", "testing"],
   "description": "js-factories integration with Chai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Leon Mergen <leon@solatis.com> (http://www.leonmergen.com/)",
   "main": "./chai-js-factories",
   "license": "MIT",
