@@ -27,7 +27,9 @@ Note that unlike the other methods, you will need to explicitly initialize `chai
 
 ```javascript
 require(['chai', 'js-factories', 'chai-js-factories'], function(chai, Factory, chaiJsFactories) {
-  chai.use(chaiJsFactories.bind(this, Factory));
+  chai.use(function(chai, utils) {
+    chaiJsFactories(Factory, chai, utils);
+  });
 });
 ```
 

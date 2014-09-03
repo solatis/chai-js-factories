@@ -6,7 +6,9 @@
     define(factory);
   } else if (typeof exports === 'object') {
     // Node
-    module.exports = factory.bind(this, require('js-factories'));
+    module.exports = function(chai, utils) {
+      return factory(require('js-factories'), chai, utils);
+    }
   } else {
     if (!context.chai) {
       throw new Error(['Chai could not be found in the current scope. Please ensure Chai is loaded',
@@ -15,11 +17,12 @@
 
     if (typeof context.Factory !== 'object') {
       throw new Error(['Please include `js-factories` globally as a script, and ensure it is',
-                      'exported as the global `Factory` function.']);
+                      'exported as the global `Factory` function.'].join(''));
     }
 
-    // Browser globals
-    context.chai.use(factory.bind(this, Factory));
+    context.chai.use(function(chai, utils) {
+      return factory(Factory, chai, utils);
+    });
   }
 }(this, function(Factory, chai /*, utils */) {
   'use strict';
