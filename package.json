@@ -1,6 +1,12 @@
 {
   "name": "chai-js-factories",
-  "keywords": [ "test", "chai", "factory", "js-factories", "testing"],
+  "keywords": [
+    "test",
+    "chai",
+    "factory",
+    "js-factories",
+    "testing"
+  ],
   "description": "js-factories integration with Chai",
   "version": "0.1.3",
   "author": "Leon Mergen <leon@solatis.com> (http://www.leonmergen.com/)",
@@ -16,10 +22,12 @@
   "scripts": {
     "test": "mocha-phantomjs test/index.html"
   },
+  "dependencies": {
+    "js-factories": "^1.1.1"
+  },
   "devDependencies": {
-    "chai": "~1",
-    "mocha": "~1",
-    "mocha-phantomjs": "~3",
-    "js-factories": "~1"
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4",
+    "mocha-phantomjs": "^3.5.0"
   }
 }
