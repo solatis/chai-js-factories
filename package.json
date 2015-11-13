@@ -8,7 +8,10 @@
     "test",
     "factory",
     "js-factories",
-    "testing"
+    "testing",
+    "chai-plugin",
+    "browser",
+    "object-constructors"
   ],
   "description": "js-factories integration with Chai",
   "version": "0.1.4",
