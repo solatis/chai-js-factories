@@ -1,8 +1,11 @@
 {
   "name": "chai-js-factories",
   "keywords": [
-    "test",
     "chai",
+    "chai-plugin",
+    "browser",
+    "object-constructors",
+    "test",
     "factory",
     "js-factories",
     "testing"
